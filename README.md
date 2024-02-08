@@ -1,4 +1,4 @@
-# ASCII-Orbit - 
+# ASCII-Orbit - Save The Galaxy
 
 ASCII-Orbit is a console-based C# application that merges classic arcade gaming with a modern programming approach. This game transforms the simple console window into a dynamic battlefield, inviting players to navigate through an ASCII universe filled with invaders. With the game area defined by a width of 60 characters and a height of 25 lines, it centralizes the action in the console's window, providing a focused gameplay experience.
 
