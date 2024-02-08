@@ -150,11 +150,11 @@ namespace ASCII_Orbit
 
             foreach (string line in titleLines)
             {
-                Console.SetCursorPosition((screenWidth - line.Length) / 2, startY++);
+                Console.SetCursorPosition(((screenWidth - line.Length) / 2) + 1, startY++);
                 Console.WriteLine(line);
             }
             Console.ResetColor();
-            BlinkInstructions(instructions, screenWidth, instructionsY);
+            BlinkInstructions(instructions, screenWidth + 1, instructionsY);
             Console.Clear();
         }
 
