@@ -26,7 +26,7 @@ In ASCII Orbit, the game mechanics are straightforward yet engaging, designed to
 
 - **Extra Lives**: Players earn extra lives at score milestones (10,000, 20,000, 40,000, 80,000, etc.), helping them tackle the increasing difficulty.
   
-If the Windows console application ASCII-Orbit receives updates in the future, it may include new game elements, improved game mechanics and necessary bug fixes.
+> If the Windows console application ASCII-Orbit receives updates in the future, it may include new game elements, improved game mechanics and necessary bug fixes.
 
 # Copyright
 
@@ -48,4 +48,4 @@ Prior to downloading either the Setup or Project folder for the ASCII-Orbit Soft
 
 | StartUp Screen               | InGame Screen                | GameOver Screen              |
 |------------------------------|------------------------------|------------------------------|
-| <img src="https://github.com/BerndHagen/MetaEdit-Tag-Editor/raw/main/img/v1.0.0-metaedit_startup.png" width="300px"> | <img src="https://github.com/BerndHagen/MetaEdit-Tag-Editor/raw/main/img/v1.0.0-metaedit_inputs.png" width="300px"> | <img src="https://github.com/BerndHagen/MetaEdit-Tag-Editor/raw/main/img/v1.0.0-metaedit_generate.png" width="300px"> |
+| <img src="https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/raw/main/img/v1.0.0-ascii-orbit-title.png" width="300px"> | <img src="https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/raw/main/img/v1.0.0-ascii-orbit-game.png" width="300px"> | <img src="https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/raw/main/img/v1.0.0-ascii-orbit-gameover.png" width="300px"> |
