@@ -6,6 +6,66 @@ The core mechanics revolve around controlling a player character, represented by
 
 Crafted using Visual Studio 2022, ASCII Orbit is a console-based application tailored for `Windows`, featuring compatibility with `Linux` systems albeit with certain limitations. Specifically, the game operates on Linux without sound effects and requires adjustments to the console size due to the Windows-exclusive availability of the Beep function and specific console size adaptations. The application depends on the `.NET Framework 4.7.2` or later versions to ensure a seamless and effective user experience across various platforms.
 
+# Installation Guide
+
+To install ASCII-Orbit on your system, follow these steps:
+
+### Prerequisites
+
+Before installing ASCII-Orbit, ensure you have the following prerequisites:
+
+1. **.NET Framework**: ASCII-Orbit requires the `.NET Framework 4.7.2` or later versions to run smoothly. You can download it here:
+   - [Download .NET Framework](https://dotnet.microsoft.com/download/dotnet-framework)
+   
+2. **Git**: Git is required to clone the ASCII-Orbit repository from GitHub. Download and install Git from the official Git website:
+   - [Download Git](https://git-scm.com/)
+
+## Installing on Windows
+
+To install ASCII-Orbit on a Windows system, follow these steps:
+
+1. **Open Command Prompt**: Open Command Prompt as an administrator.
+
+2. **Navigate to Desktop**: Change directory to the Desktop.
+   ```bash
+   cd Desktop
+
+3. **Clone the Repository**: Clone the ASCII-Orbit repository from GitHub.
+   ```bash
+   git clone https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter.git
+
+4. **avigate to the Repository**: Move into the cloned repository directory.
+   ```bash
+   cd ASCII-Orbit-Terminal-Shooter
+
+5. **Run the Application**: Execute the ASCII-Orbit executable.
+   ```bash
+   .\release\ASCII Orbit.exe
+
+## Installing on Linux
+
+To install ASCII-Orbit on a Linux system, follow these steps:
+
+1. **Open Command Prompt**: Open a Terminal windows.
+
+2. **Navigate to Desktop**: Change directory to the Desktop.
+   ```bash
+   cd ~/Desktop
+   
+3. **Clone the Repository**: Clone the ASCII-Orbit repository from GitHub.
+   ```bash
+   git clone https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter.git
+
+4. **Navigate to the Repository**: Move into the cloned repository directory.
+   ```bash
+   cd ASCII-Orbit-Terminal-Shooter
+
+5. **Run the Application**: Execute the ASCII-Orbit executable using Mono.
+   ```bash
+   mono ASCII-Orbit/ASCII-Orbit/bin/Debug/net472/ASCII-Orbit.exe
+
+> Note: For Linux systems, sound effects are not supported, and console size adjustments may be required for optimal gameplay.
+
 # Gameplay Mechanics
 
 In ASCII Orbit, the game mechanics are straightforward yet engaging, designed to keep the player immersed through various stages:
