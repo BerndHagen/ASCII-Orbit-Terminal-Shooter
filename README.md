@@ -2,13 +2,13 @@
 
 ASCII-Orbit is a console-based C# application that merges classic arcade gaming with a modern programming approach. This game transforms the simple console window into a dynamic battlefield, inviting players to navigate through an ASCII universe filled with invaders. With the game area defined by a width of 60 characters and a height of 25 lines, it centralizes the action in the console's window, providing a focused gameplay experience.
 
-The core mechanics revolve around controlling a player character, represented by a simple ASCII character, to dodge and shoot down incoming invaders. These invaders, selected from the English alphabet, descend towards the player at varying speeds, challenging the player's reaction times and strategic planning. The player's objective is to survive as long as possible while eliminating invaders, thereby increasing their score, advancing through levels and enhancing the game's difficulty.
+The core mechanics revolve around controlling a player character, represented by a simple ASCII character, to dodge and shoot down incoming invaders. These invaders, selected from the English alphabet, descend towards the player at varying speeds, challenging the player's reaction times. The player's objective is to survive as long as possible while eliminating invaders, thereby increasing their score, advancing through levels and enhancing the game's difficulty.
 
-Crafted using Visual Studio 2022, ASCII Orbit is a console-based application tailored for `Windows`, featuring compatibility with `Linux` systems albeit with certain limitations. Specifically, the game operates on Linux without sound effects and requires adjustments to the console size due to the Windows-exclusive availability of the Beep function and specific console size adaptations. The application depends on the `.NET Framework 4.7.2` or later versions to ensure a seamless and effective user experience across various platforms.
+Crafted using Visual Studio 2022, ASCII Orbit is a console-based application tailored for `Windows`, featuring compatibility with `Linux` systems albeit with certain limitations. Specifically, the game operates on Linux without sound effects and requires adjustments to the console size due to the Windows-exclusive availability of the Beep function and specific console size adaptations. The application depends on the `.NET Framework 4.7.2` or later versions to ensure a seamless user experience across various platforms.
 
 # Installation Guide
 
-To install ASCII-Orbit on your system, follow these steps:
+To install ASCII-Orbit on your Desktop, follow these steps:
 
 ### Prerequisites
 
@@ -19,6 +19,10 @@ Before installing ASCII-Orbit, ensure you have the following prerequisites:
    
 2. **Git**: Git is required to clone the ASCII-Orbit repository from GitHub. Download and install Git from the official Git website:
    - [Download Git](https://git-scm.com/)
+
+3. **Mono**: Mono is necessary for running Windows .NET applications on Linux systems. Ensure to install the most recent version:
+   - [Download Mono](https://www.mono-project.com/download/stable/)
+
 
 ## Installing on Windows
 
@@ -34,19 +38,21 @@ To install ASCII-Orbit on a Windows system, follow these steps:
    ```bash
    git clone https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter.git
 
-4. **avigate to the Repository**: Move into the cloned repository directory.
+4. **Navigate to the Repository**: Move into the cloned repository directory.
    ```bash
-   cd ASCII-Orbit-Terminal-Shooter
+   cd ASCII-Orbit-Terminal-Shooter\release
 
 5. **Run the Application**: Execute the ASCII-Orbit executable.
    ```bash
-   .\release\ASCII Orbit.exe
+   start cmd /k ".\ASCII Orbit.exe"
+
+> Note: To prevent buffer overflow exceptions, it must be launched in a new CMD window when launching from Command Promt.  
 
 ## Installing on Linux
 
 To install ASCII-Orbit on a Linux system, follow these steps:
 
-1. **Open Command Prompt**: Open a Terminal windows.
+1. **Open Terminal**: Launch a Terminal window.
 
 2. **Navigate to Desktop**: Change directory to the Desktop.
    ```bash
@@ -62,8 +68,9 @@ To install ASCII-Orbit on a Linux system, follow these steps:
 
 5. **Run the Application**: Execute the ASCII-Orbit executable using Mono.
    ```bash
-   mono ASCII-Orbit/ASCII-Orbit/bin/Debug/net472/ASCII-Orbit.exe
-
+   mono ./release/ASCII\ Orbit.exe
+   
+This command uses Mono to run the Windows executable on Linux.
 > Note: For Linux systems, sound effects are not supported, and console size adjustments may be required for optimal gameplay.
 
 # Gameplay Mechanics
