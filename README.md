@@ -6,7 +6,7 @@ The core mechanics revolve around controlling a player character, represented by
 
 Crafted using Visual Studio 2022, ASCII Orbit is a console-based application tailored for `Windows`, featuring compatibility with `Linux` systems albeit with certain limitations. Specifically, the game operates on Linux without sound effects and requires adjustments to the console size due to the Windows-exclusive availability of the Beep function and specific console size adaptations. The application depends on the `.NET Framework 4.7.2` or later versions to ensure a seamless user experience across various platforms.
 
-# Installation Guide
+# Run with Command Line
 
 To install ASCII-Orbit on your Desktop, follow these steps:
 
