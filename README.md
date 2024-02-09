@@ -1,18 +1,18 @@
 # ASCII-Orbit - Save The Galaxy
 
-ASCII-Orbit is a console-based C# application that merges classic arcade gaming with a modern programming approach. This game transforms the simple console window into a dynamic battlefield, inviting players to navigate through an ASCII universe filled with invaders. With the game area defined by a width of 60 characters and a height of 25 lines, it centralizes the action in the console's window, providing a focused gameplay experience.
+ASCII-Orbit is a console-based C# application that merges classic arcade gaming with a modern programming approach. This game transforms the simple console window into a dynamic battlefield, inviting players to navigate through an ASCII universe filled with invaders. This game combines the excitement of arcade gaming with the use of ASCII art, making it both visually interesting and strategically deep.
 
 The core mechanics revolve around controlling a player character, represented by a simple ASCII character, to dodge and shoot down incoming invaders. These invaders, selected from the English alphabet, descend towards the player at varying speeds, challenging the player's reaction times. The player's objective is to survive as long as possible while eliminating invaders, thereby increasing their score, advancing through levels and enhancing the game's difficulty.
 
-Crafted using Visual Studio 2022, ASCII Orbit is a console-based application tailored for `Windows`, featuring compatibility with `Linux` systems albeit with certain limitations. Specifically, the game operates on Linux without sound effects and requires adjustments to the console size due to the Windows-exclusive availability of the Beep function and specific console size adaptations. The application depends on the `.NET Framework 4.7.2` or later versions to ensure a seamless user experience across various platforms.
+Made with Visual Studio 2022, ASCII Orbit is a console-based application tailored for `Windows`, featuring compatibility with `Linux` systems albeit with certain limitations. Specifically, the game operates on Linux without sound effects and requires adjustments to the console size due to the Windows-exclusive availability of the Beep function and specific console size adaptations. The application depends on the `.NET Framework 4.7.2` or later versions to ensure compatibility and optimized gameplay across different operating systems.
 
 # Run with Command Line
 
-To install ASCII-Orbit on your Desktop, follow these steps:
+To run ASCII-Orbit on your Desktop, follow these steps:
 
 ### Prerequisites
 
-Before installing ASCII-Orbit, ensure you have the following prerequisites:
+Before running ASCII-Orbit, ensure you have the following prerequisites:
 
 1. **.NET Framework**: ASCII-Orbit requires the `.NET Framework 4.7.2` or later versions to run smoothly. You can download it here:
    - [Download .NET Framework](https://dotnet.microsoft.com/download/dotnet-framework)
@@ -24,9 +24,9 @@ Before installing ASCII-Orbit, ensure you have the following prerequisites:
    - [Download Mono](https://www.mono-project.com/download/stable/)
 
 
-## Installing on Windows
+## Running on Windows
 
-To install ASCII-Orbit on a Windows system, follow these steps:
+To run ASCII-Orbit on a Windows system, follow these steps:
 
 1. **Open Command Prompt**: Open Command Prompt as an administrator.
 
@@ -48,9 +48,9 @@ To install ASCII-Orbit on a Windows system, follow these steps:
 
 > Note: To prevent buffer overflow exceptions, it must be launched in a new CMD window when launching from Command Promt.  
 
-## Installing on Linux
+## Running on Linux
 
-To install ASCII-Orbit on a Linux system, follow these steps:
+To run ASCII-Orbit on a Linux system, follow these steps:
 
 1. **Open Terminal**: Launch a Terminal window.
 
@@ -89,7 +89,7 @@ In ASCII Orbit, the game mechanics are straightforward yet engaging, designed to
 
 - **Live Status Updates**: The game displays the current score, lives left and the level to keep the player informed of their progress.
 
-- **Life and Survival**: Players start with a set number of lives, which are lost when hit by invaders. The game ends when all lives are depleted, leading to a game over screen that generates a rank based on the player's stats.
+- **Life and Survival**: Players start with a set number of lives, which are lost when they miss an invader. The game ends when all lives are depleted, leading to a game over screen that generates a rank based on the player's stats.
 
 - **Extra Lives**: Players earn extra lives at score milestones (10,000, 20,000, 40,000, 80,000, etc.), helping them tackle the increasing difficulty.
   
