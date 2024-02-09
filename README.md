@@ -4,7 +4,7 @@ ASCII-Orbit is a console-based C# application that merges classic arcade gaming 
 
 The core mechanics revolve around controlling a player character, represented by a simple ASCII character, to dodge and shoot down incoming invaders. These invaders, selected from the English alphabet, descend towards the player at varying speeds, challenging the player's reaction times. The player's objective is to survive as long as possible while eliminating invaders, thereby increasing their score, advancing through levels and enhancing the game's difficulty.
 
-Made with Visual Studio 2022, ASCII Orbit is a console-based application tailored for `Windows`, featuring compatibility with `Linux` systems albeit with certain limitations. Specifically, the game operates on Linux without sound effects and requires adjustments to the console size due to the Windows-exclusive availability of the Beep function and specific console size adaptations. The application depends on the `.NET Framework 4.7.2` or later versions to ensure compatibility and optimized gameplay across different operating systems.
+Made with Visual Studio 2022, ASCII-Orbit is a console-based application tailored for `Windows`, featuring compatibility with `Linux` systems albeit with certain limitations. Specifically, the game operates on Linux without sound effects and requires adjustments to the console size due to the Windows-exclusive availability of the Beep function and specific console size adaptations. The application depends on the `.NET Framework 4.7.2` or later versions to ensure compatibility and optimized gameplay across different operating systems.
 
 # Run with Command Line
 
@@ -75,7 +75,7 @@ This command uses Mono to run the Windows executable on Linux.
 
 # Gameplay Mechanics
 
-In ASCII Orbit, the game mechanics are straightforward yet engaging, designed to keep the player immersed through various stages:
+In ASCII-Orbit, the game mechanics are straightforward yet engaging, designed to keep the player immersed through various stages:
 
 - **Player Movement**: Players control their character by moving left or right to target incoming invaders.
 
