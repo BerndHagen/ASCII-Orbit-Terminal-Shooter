@@ -1,4 +1,4 @@
-# ASCII-Orbit - Save The Galaxy
+# ASCII-Orbit - Terminal Shooter
 
 ASCII-Orbit is a console-based C# application that merges classic arcade gaming with a modern programming approach. This game transforms the simple console window into a dynamic battlefield, inviting players to navigate through an ASCII universe filled with invaders. This game combines the excitement of arcade gaming with the use of ASCII art, making it both visually interesting and strategically deep.
 
