@@ -6,14 +6,14 @@ Players control an arrow symbol, tasked with defending against enemies represent
 
 At the end of the game, your performance is evaluated based on your final score, with rankings ranging from **S+** to lower grades.
 
-### **Technical Details**
+## **Technical Details**
+
 - **Platform:** Windows
+- **Development Environment:** Visual Studio 2022
 - **Framework:** [.NET Framework 4.7.2](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net472) or higher
-- **Compatibility:** The game is developed exclusively for `Windows`. However, with [Mono](https://www.mono-project.com/download/stable/), it may run on `Linux`, though with some limitations:
+- **Compatibility:** The game is developed exclusively for `Windows`. However, with Mono, it may run on `Linux`, though with some limitations:
   - Sound effects are not supported on Linux.
   - Console size adjustments might be required for optimal gameplay.
-
-Start your journey in the ASCII universe and see how long you can survive the onslaught!
 
 ## Running ASCII-Orbit
 
@@ -65,7 +65,7 @@ Below is the list of score thresholds required to achieve each rank:
 |  C-  |      21000 Pts.       |   S  |      46000 Pts.       |
 |   C  |      23500 Pts.       |  S+  |      48500 Pts.       |
 
-# License Information
+## License Information
 
 ASCII-Orbit is licensed under the MIT License. You are granted permission, free of charge, to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this project and its associated documentation files, under the following conditions:
 
@@ -77,9 +77,9 @@ ASCII-Orbit is licensed under the MIT License. You are granted permission, free 
 
 For complete license details, please refer to the [MIT License](LICENSE).
 
-# Screenshots
+## Screenshots
 Before downloading the project, you can review the screenshots below to preview its appearance. Each image displays a different screen of the Windows console application. Be aware that future updates may introduce additional features.
 
-| ASCII-Orbit - Titlescreen    | ASCII-Orbit - In Game         | ASCII-Orbit - Game Over      |
+| ASCII-Orbit - Titlescreen    | ASCII-Orbit - In Game        | ASCII-Orbit - Game Over      |
 |------------------------------|------------------------------|------------------------------|
 | <img src="https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/raw/main/img/v1.0.0-ascii-orbit-title.png" width="300px"> | <img src="https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/raw/main/img/v1.0.0-ascii-orbit-game.png" width="300px"> | <img src="https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/raw/main/img/v1.0.0-ascii-orbit-gameover.png" width="300px"> |
