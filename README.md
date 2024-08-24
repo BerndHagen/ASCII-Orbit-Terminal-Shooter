@@ -1,10 +1,10 @@
 # ASCII-Orbit - Terminal Shooter
 
-**ASCII-Orbit** is a console-based C# game that transforms a simple console window into an intense battlefield. In this game, players navigate an ASCII-rendered universe, dodging and destroying waves of alphabetical invaders as they descend toward the bottom of the screen. 
+**ASCII-Orbit** is a console-based C# game that transforms a simple console window into a battlefield. In this game, players navigate an ASCII-rendered universe, dodging and destroying waves of alphabetical invaders as they descend toward the bottom of the screen. 
 
 Players control an arrow symbol, tasked with defending against enemies represented by letters of the alphabet. As players progress through levels, the speed of the enemies increases, ramping up the challenge. The objective is to shoot down these invaders before they reach the bottom of the screen, as each enemy that gets through costs the player a life. The game continues to escalate in difficulty, testing your reflexes constantly more.
 
-At the end of the game, your performance is evaluated based on your final score, with rankings ranging from **S** (the highest) to lower grades.
+At the end of the game, your performance is evaluated based on your final score, with rankings ranging from **S+** to lower grades.
 
 ### **Technical Details**
 - **Platform:** Windows
@@ -21,15 +21,13 @@ To start playing **ASCII-Orbit**, you have two options: download the game direct
 
 ### **Option 1: Download and Play (Recommended)**
 
-1. **Download the Game**: Go to the [Releases page](https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/releases) and download the latest version of the game as a ZIP file.
+1. **Download the Game**: Go to the [Releases page](https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/releases) and download the latest version of the game as a **ZIP** file.
 
 2. **Extract the ZIP File**: Once downloaded, extract the contents of the ZIP file to your desired location.
 
 3. **Run the Game**: Double-click `ASCII Orbit.exe` to start the game.
 
-> **Note:** Make sure you have the [**.NET Framework 4.7.2**](https://dotnet.microsoft.com/download/dotnet-framework) or later installed on your system to run the game.
-
-## **Option 2: Run with Command Line (For Developers or Advanced Users)**
+### **Option 2: Run with Command Line (For Developers or Advanced Users)**
 
 For users who prefer to clone the repository and run the game from their desktop via the command line, follow these steps:
 
@@ -47,7 +45,7 @@ For users who prefer to clone the repository and run the game from their desktop
    ```bash
    start cmd /k ".\ASCII Orbit.exe"
 
-> **Note:** Launch the game in a new CMD window to prevent buffer overflow exceptions.
+Make sure you launch the game in a **new** CMD window to prevent buffer overflow exceptions.
 
 ## Rank Requirements
 
@@ -80,7 +78,7 @@ ASCII-Orbit is licensed under the MIT License. You are granted permission, free 
 For complete license details, please refer to the [MIT License](LICENSE).
 
 # Screenshots
-Before downloading ASCII-Orbit, please review the screenshots below to preview its appearance. Each image displays a different screen of the Windows console application. Be aware that future updates may introduce additional features.
+Before downloading the project, you can review the screenshots below to preview its appearance. Each image displays a different screen of the Windows console application. Be aware that future updates may introduce additional features.
 
 | ASCII-Orbit - Titlescreen    | ASCII-Orbit - In Game         | ASCII-Orbit - Game Over      |
 |------------------------------|------------------------------|------------------------------|
