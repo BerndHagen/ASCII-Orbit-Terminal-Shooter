@@ -1,51 +1,92 @@
-# ASCII-Orbit - Save The Galaxy
+# ASCII-Orbit - Terminal Shooter
 
-ASCII-Orbit is a console-based C# application that merges classic arcade gaming with a modern programming approach. This game transforms the simple console window into a dynamic battlefield, inviting players to navigate through an ASCII universe filled with invaders. With the game area defined by a width of 60 characters and a height of 25 lines, it centralizes the action in the console's window, providing a focused gameplay experience.
+**ASCII-Orbit** is a console-based C# game that transforms a simple console window into a battlefield. In this game, players navigate an ASCII-rendered universe, dodging and destroying waves of alphabetical invaders as they descend toward the bottom of the screen. 
 
-The core mechanics revolve around controlling a player character, represented by a simple ASCII character, to dodge and shoot down incoming invaders. These invaders, selected from the English alphabet, descend towards the player at varying speeds, challenging the player's reaction times and strategic planning. The player's objective is to survive as long as possible while eliminating invaders, thereby increasing their score, advancing through levels and enhancing the game's difficulty.
+Players control an arrow symbol, tasked with defending against enemies represented by letters of the alphabet. As players progress through levels, the speed of the enemies increases, ramping up the challenge. The objective is to shoot down these invaders before they reach the bottom of the screen, as each enemy that gets through costs the player a life. The game continues to escalate in difficulty, testing your reflexes constantly more.
 
-Crafted using Visual Studio 2022, ASCII Orbit is a console-based application tailored for `Windows`, featuring compatibility with `Linux` systems albeit with certain limitations. Specifically, the game operates on Linux without sound effects and requires adjustments to the console size due to the Windows-exclusive availability of the Beep function and specific console size adaptations. The application depends on the `.NET Framework 4.7.2` or later versions to ensure a seamless and effective user experience across various platforms.
+At the end of the game, your performance is evaluated based on your final score, with rankings ranging from **S+** to lower grades.
 
-# Gameplay Mechanics
+## **Technical Details**
 
-In ASCII Orbit, the game mechanics are straightforward yet engaging, designed to keep the player immersed through various stages:
+- **Platform:** Windows
+- **Development Environment:** Visual Studio 2022
+- **Framework:** [.NET Framework 4.7.2](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net472) or higher
+- **Compatibility:** The game is developed exclusively for `Windows`. However, with Mono, it may run on `Linux`, though with some limitations:
+  - Sound effects are not supported on Linux.
+  - Console size adjustments might be required for optimal gameplay.
 
-- **Player Movement**: Players control their character by moving left or right to target incoming invaders.
+## Running ASCII-Orbit
 
-- **Invader Dynamics**: Invaders, represented by ASCII characters, move downwards towards the player. The game increases the number of invaders and their speed as the player progresses.
+To start playing **ASCII-Orbit**, you have two options: download the game directly from the releases or run it manually via the command line.
 
-- **Scoring System**: Points are awarded for each invader destroyed. The total score reflects the player's success in eliminating threats.
+### **Option 1: Download and Play (Recommended)**
 
-- **Progression and Levels**: The game becomes more challenging as the player advances, with invaders moving faster and in more complex patterns.
+1. **Download the Game**: Go to the [Releases page](https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/releases) and download the latest version of the game as a **ZIP** file.
 
-- **Projectile Mechanics**: Shooting is the primary action for attacking invaders. Players must aim their shots to intersect with the invaders' paths.
+2. **Extract the ZIP File**: Once downloaded, extract the contents of the ZIP file to your desired location.
 
-- **Live Status Updates**: The game displays the current score, lives left and the level to keep the player informed of their progress.
+3. **Run the Game**: Double-click `ASCII Orbit.exe` to start the game.
 
-- **Life and Survival**: Players start with a set number of lives, which are lost when hit by invaders. The game ends when all lives are depleted, leading to a game over screen that generates a rank based on the player's stats.
+### **Option 2: Run with Command Line (For Developers or Advanced Users)**
 
-- **Extra Lives**: Players earn extra lives at score milestones (10,000, 20,000, 40,000, 80,000, etc.), helping them tackle the increasing difficulty.
-  
-If the Windows console application ASCII-Orbit receives updates in the future, it may include new game elements, improved game mechanics and necessary bug fixes.
+For users who prefer to clone the repository and run the game from their desktop via the command line, follow these steps:
 
-# Copyright
+1. **Open Command Prompt**: Open Command Prompt as an administrator.
 
-This ASCII-Orbit application is licensed under the [MIT License](LICENSE).
+2. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter.git
 
-**MIT License**
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files, to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense and/or sell copies of the Software, subject to the following conditions:
+2. **Navigate to the Release Folder**:
+   ```bash
+   cd ASCII-Orbit-Terminal-Shooter\release
 
-1. The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+2. **Run the Application**:
+   ```bash
+   start cmd /k ".\ASCII Orbit.exe"
 
-2. Users of the Software should provide proper attribution to the original creator in their projects, documentation or any other materials that make use of this Software. Additionally, users should include a link to the original Repository created by me when providing attribution.
+Make sure you launch the game in a **new** CMD window to prevent buffer overflow exceptions.
 
-3. The Software is provided "as is," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the Software or the use or other dealings in the Software.
+## Rank Requirements
 
-For more details, please refer to the [MIT License](LICENSE).
+In **ASCII-Orbit**, your performance at the end of the game is ranked based on your final score. Additionally, players earn `Extra Lives` by reaching specific score milestones, beginning at **10,000**. Each subsequent milestone doubles the previous one, progressing to **20,000**, **40,000** and so forth.
+Below is the list of score thresholds required to achieve each rank:
 
-# Screenshots
-Prior to downloading either the Setup or Project folder for the ASCII-Orbit Software, you have the option to preview its appearance through the screenshots provided below. These images highlight the visual characteristics of the windows console application. Please note that future updates may introduce additional features.
+| Rank | Score Required (Pts.) | Rank | Score Required (Pts.) |
+|------|-----------------------|------|-----------------------|
+|   F  |        0 Pts.         |  C+  |      63750 Pts.       |
+|  F+  |       3000 Pts.       |  B-  |      74250 Pts.       |
+|  E-  |       6750 Pts.       |   B  |      85500 Pts.       |
+|   E  |       11250 Pts.       |  B+  |      97500 Pts.       |
+|  E+  |      16500 Pts.       |  A-  |      110250 Pts.       |
+|  D-  |      22500 Pts.       |   A  |      123750 Pts.       |
+|   D  |      29250 Pts.       |  A+  |      138000 Pts.       |
+|  D+  |      36750 Pts.       |  S-  |      153000 Pts.       |
+|  C-  |      45000 Pts.       |   S  |      168750 Pts.       |
+|   C  |      54000 Pts.       |  S+  |      185250 Pts.       |
 
-| StartUp Screen               | InGame Screen                | GameOver Screen              |
+Players score points by hitting invaders. Each invader hit grants the player **50 points**. As players advance through levels, the points earned per hit increase by an additional **50 points** for each new level. To reach the next level, players must defeat a specific number of invaders, which increases with each level by 2
+
+For example:
+- To progress from Level 1 to Level 2, a player needs to defeat **5** invaders.
+- To progress from Level 2 to Level 3, a player needs to defeat **7** invaders.
+- To progress from Level 3 to Level 4, a player needs to defeat **9** invaders.
+
+## License Information
+
+ASCII-Orbit is licensed under the MIT License. You are granted permission, free of charge, to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this project and its associated documentation files, under the following conditions:
+
+1. **Copyright Notice:** The above copyright notice and this permission notice must be included in all copies or substantial portions of the project.
+
+2. **Attribution:** If you use this project, you should credit the original creator in your work, documentation, or any materials that incorporate or use this project. Additionally, please include a link to the original repository created by the author when giving attribution.
+
+3. **No Warranty:** This project is provided "as is," without any warranties, whether express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, or non-infringement. In no case shall the author or copyright holder be liable for any claims, damages, or other liabilities, whether in a contract, tort, or otherwise, arising from the use of this project or any other dealings with the Software.
+
+For complete license details, please refer to the [MIT License](LICENSE).
+
+## Screenshots
+Before downloading the project, you can review the screenshots below to preview its appearance. Each image displays a different screen of the Windows console application. Be aware that future updates may introduce additional features.
+
+| ASCII-Orbit - Titlescreen    | ASCII-Orbit - In Game        | ASCII-Orbit - Game Over      |
 |------------------------------|------------------------------|------------------------------|
-| <img src="https://github.com/BerndHagen/MetaEdit-Tag-Editor/raw/main/img/v1.0.0-metaedit_startup.png" width="300px"> | <img src="https://github.com/BerndHagen/MetaEdit-Tag-Editor/raw/main/img/v1.0.0-metaedit_inputs.png" width="300px"> | <img src="https://github.com/BerndHagen/MetaEdit-Tag-Editor/raw/main/img/v1.0.0-metaedit_generate.png" width="300px"> |
+| <img src="https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/raw/main/img/v1.0.0-ascii-orbit-title.png" width="300px"> | <img src="https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/raw/main/img/v1.0.0-ascii-orbit-game.png" width="300px"> | <img src="https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/raw/main/img/v1.0.0-ascii-orbit-gameover.png" width="300px"> |
