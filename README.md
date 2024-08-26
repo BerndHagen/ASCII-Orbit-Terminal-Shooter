@@ -54,16 +54,23 @@ Below is the list of score thresholds required to achieve each rank:
 
 | Rank | Score Required (Pts.) | Rank | Score Required (Pts.) |
 |------|-----------------------|------|-----------------------|
-|   F  |        0 Pts.         |  C+  |      26000 Pts.       |
-|  F+  |       3500 Pts.       |  B-  |      28500 Pts.       |
-|  E-  |       6000 Pts.       |   B  |      31000 Pts.       |
-|   E  |       8500 Pts.       |  B+  |      33500 Pts.       |
-|  E+  |      11000 Pts.       |  A-  |      36000 Pts.       |
-|  D-  |      13500 Pts.       |   A  |      38500 Pts.       |
-|   D  |      16000 Pts.       |  A+  |      41000 Pts.       |
-|  D+  |      18500 Pts.       |  S-  |      43500 Pts.       |
-|  C-  |      21000 Pts.       |   S  |      46000 Pts.       |
-|   C  |      23500 Pts.       |  S+  |      48500 Pts.       |
+|   F  |        0 Pts.         |  C+  |      63750 Pts.       |
+|  F+  |       3000 Pts.       |  B-  |      74250 Pts.       |
+|  E-  |       6750 Pts.       |   B  |      85500 Pts.       |
+|   E  |       11250 Pts.       |  B+  |      97500 Pts.       |
+|  E+  |      16500 Pts.       |  A-  |      110250 Pts.       |
+|  D-  |      22500 Pts.       |   A  |      123750 Pts.       |
+|   D  |      29250 Pts.       |  A+  |      138000 Pts.       |
+|  D+  |      36750 Pts.       |  S-  |      153000 Pts.       |
+|  C-  |      45000 Pts.       |   S  |      168750 Pts.       |
+|   C  |      54000 Pts.       |  S+  |      185250 Pts.       |
+
+Players score points by hitting invaders. Each invader hit grants the player **50 points**. As players advance through levels, the points earned per hit increase by an additional **50 points** for each new level. To reach the next level, players must defeat a specific number of invaders, which increases with each level by 2
+
+For example:
+- To progress from Level 1 to Level 2, a player needs to defeat **5** invaders.
+- To progress from Level 2 to Level 3, a player needs to defeat **7** invaders.
+- To progress from Level 3 to Level 4, a player needs to defeat **9** invaders.
 
 ## License Information
 
