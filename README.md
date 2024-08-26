@@ -6,6 +6,16 @@ Players control an arrow symbol, tasked with defending against enemies represent
 
 At the end of the game, your performance is evaluated based on your final score, with rankings ranging from **S+** to lower grades.
 
+## Table of Contents
+
+1. [Technical Details](#technical-details)
+2. [Running ASCII-Orbit](#running-ascii-orbit)
+    - [Option 1: Download and Play (Recommended)](#option-1-download-and-play-recommended)
+    - [Option 2: Run with Command Line (For Developers or Advanced Users)](#option-2-run-with-command-line-for-developers-or-advanced-users)
+3. [Rank Requirements](#rank-requirements)
+4. [License Information](#license-information)
+5. [Screenshots](#screenshots)
+
 ## **Technical Details**
 
 - **Platform:** Windows
