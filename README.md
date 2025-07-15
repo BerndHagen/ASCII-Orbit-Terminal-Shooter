@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/raw/main/img/v1.0.1-ascii-orbit-logo.png" alt="ASCII-Orbit Logo" width="300" />
+  <img src="https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/raw/main/img/v1.0.1-ascii-orbit-logo.png" alt="ASCII-Orbit Logo" width="128" />
 </p>
 <h1 align="center">ASCII-Orbit - Terminal Shooter</h1>
 <p align="center">
