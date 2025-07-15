@@ -1,4 +1,14 @@
-# ASCII-Orbit - Terminal Shooter
+<p align="center">
+  <img src="https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/raw/main/img/v1.0.1-ascii-orbit-logo.png" alt="ASCII-Orbit Logo" width="300" />
+</p>
+<h1 align="center">ASCII-Orbit - Terminal Shooter</h1>
+<p align="center">
+  <b>Navigate an ASCII-rendered universe and defend against waves of alphabetical invaders.</b><br>
+  <b>Experience fast-paced terminal-based shooting action with escalating difficulty and ranking system.</b>
+</p>
+<p align="center">
+  <a href="https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/releases"><img src="https://img.shields.io/github/v/release/BerndHagen/ASCII-Orbit-Terminal-Shooter?include_prereleases&style=flat-square&color=CD853F" alt="Latest Release"></a>&nbsp;&nbsp;<a href="https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License"></a>&nbsp;&nbsp;<a href="https://dotnet.microsoft.com/en-us/download/dotnet-framework/net472"><img src="https://img.shields.io/badge/.NET_Framework-4.7.2-512BD4?style=flat-square" alt=".NET Framework Version"></a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=flat-square" alt="Platform">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Architecture-x86/x64-lightgrey?style=flat-square" alt="Architecture">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status">&nbsp;&nbsp;<a href="https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/issues"><img src="https://img.shields.io/badge/Issues-0_open-orange?style=flat-square" alt="Open Issues"></a>
+</p>
 
 **ASCII-Orbit** is a console-based C# game that transforms a simple console window into a battlefield. In this game, players navigate an ASCII-rendered universe, dodging and destroying waves of alphabetical invaders as they descend toward the bottom of the screen. 
 
@@ -8,22 +18,32 @@ At the end of the game, your performance is evaluated based on your final score,
 
 ## Table of Contents
 
-1. [Technical Details](#technical-details)
-2. [Running ASCII-Orbit](#running-ascii-orbit)
+1. [System Requirements](#system-requirements)
+2. [Controls](#controls)
+3. [Running ASCII-Orbit](#running-ascii-orbit)
     - [Option 1: Download and Play (Recommended)](#option-1-download-and-play-recommended)
     - [Option 2: Run with Command Line (For Developers or Advanced Users)](#option-2-run-with-command-line-for-developers-or-advanced-users)
-3. [Rank Requirements](#rank-requirements)
-4. [License Information](#license-information)
-5. [Screenshots](#screenshots)
+4. [Rank Requirements](#rank-requirements)
+5. [Troubleshooting](#troubleshooting)
+6. [License Information](#license-information)
+7. [Screenshots](#screenshots)
 
-## **Technical Details**
+## System Requirements
 
-- **Platform:** Windows
-- **Development Environment:** Visual Studio 2022
+- **Operating System:** Windows 7 or higher
 - **Framework:** [.NET Framework 4.7.2](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net472) or higher
-- **Compatibility:** The game is developed exclusively for `Windows`. However, with Mono, it may run on `Linux`, though with some limitations:
-  - Sound effects are not supported on Linux.
-  - Console size adjustments might be required for optimal gameplay.
+- **Console Resolution:** Minimum 80x30 characters
+- **Architecture:** x86/x64 compatible
+
+**Linux Compatibility:** The game may run on Linux with Mono, but with limitations:
+- Sound effects are not supported
+- Console size adjustments might be required for optimal gameplay
+
+## Controls
+
+- **Arrow Keys (← →):** Move player left/right
+- **Spacebar:** Shoot projectiles (750ms cooldown)
+- **Spacebar:** Start game / Continue after game over
 
 ## Running ASCII-Orbit
 
@@ -82,6 +102,24 @@ For example:
 - To progress from Level 2 to Level 3, a player needs to defeat **7** invaders.
 - To progress from Level 3 to Level 4, a player needs to defeat **9** invaders.
 
+## Troubleshooting
+
+**Console window too small:**
+- Ensure your console window supports at least 80x30 characters
+- The game automatically adjusts console size on startup
+
+**No sound effects:**
+- Sound effects are Windows-only and require system audio
+- Linux users will experience silent gameplay
+
+**Buffer overflow exceptions:**
+- Always run the game from a new Command Prompt window
+- Use the provided batch commands for proper execution
+
+**Performance issues:**
+- Close other applications to free up system resources
+- Ensure .NET Framework 4.7.2 is properly installed
+
 ## License Information
 
 ASCII-Orbit is licensed under the MIT License. You are granted permission, free of charge, to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this project and its associated documentation files, under the following conditions:
@@ -99,4 +137,4 @@ Before downloading the project, you can review the screenshots below to preview 
 
 | ASCII-Orbit - Titlescreen    | ASCII-Orbit - In Game        | ASCII-Orbit - Game Over      |
 |------------------------------|------------------------------|------------------------------|
-| <img src="https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/raw/main/img/v1.0.0-ascii-orbit-title.png" width="300px"> | <img src="https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/raw/main/img/v1.0.0-ascii-orbit-game.png" width="300px"> | <img src="https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/raw/main/img/v1.0.0-ascii-orbit-gameover.png" width="300px"> |
+| <img src="https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/raw/main/img/v1.0.1-ascii-orbit-title.png" width="300px"> | <img src="https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/raw/main/img/v1.0.1-ascii-orbit-game.png" width="300px"> | <img src="https://github.com/BerndHagen/ASCII-Orbit-Terminal-Shooter/raw/main/img/v1.0.1-ascii-orbit-gameover.png" width="300px"> |
